@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+
+  
+      
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family:"Cinzel Decorative", serif;
+    font-weight: 900;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+.fons{
+    width: 232px;
+    height: 600px;
+    position: relative;
+    float:left;
+    margin:10px;
+}
+.carta{
+    width:90%;
+    height:470px;
+    position: absolute;
+    bottom: 0;
+    left: 11px;
+    box-shadow: 0px -1px 5px  orange;
+    font-family:"Cinzel Decorative", serif;
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+
+}
+.foto{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    margin:20px auto;
+    box-shadow: 0px 0px 10px  orange;
+}
+#amada{
+    background-image: url(../img/amadaG.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#jo{
+    background-image: url(../img/adrianN.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#steph{
+    background-image: url(../img/stephannieM.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#adri{
+    background-image: url(../img/adrianR.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#xian{
+    background-image: url(../img/xianR.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#julia{
+    background-image: url(../img/juliaS.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.sobre{
+    width:100%;
+    height:300px;
+    filter: grayscale(100%);
+    background:orange;
+    position: absolute;
+    bottom: 0;
+    font-family:"Cinzel Decorative", serif;
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+    
+}
+.fons:hover>.sobre{
+    filter: grayscale(0%);
+}
+.fons:hover>.carta{
+    display: block;
+    top:0
+}
+p{
+    text-align: center;
+    margin-top: 50%;
+}
+h2{
+    text-align: center;
+    margin-top: 50%;
+    font-size: 2rem;
+}
+    
